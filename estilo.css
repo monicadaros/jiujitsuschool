@@ -1,0 +1,138 @@
+@charset "UFT-8";
+
+body 
+nav#menu {display: block;}
+
+nav#menu ul {
+   list-style: none;
+   text-transform: uppercase ;
+   position: absolute;
+   top: -10px;
+   left: 500px;
+    }
+   
+
+/* Formataçao da barra menu*/
+
+nav#menu ul {
+   list-style:none;
+   text-transform:uppercase ;}
+
+
+nav#menu li {
+   display: inline-block;
+   background-color:  #dddddd;
+   padding: 10px;
+   margin: 2px;
+}
+
+nav#menu li:hover {background-color: #606060;}
+
+nav#menu a { 
+   color: #000000;
+   text-decoration: none;
+}   
+
+nav#menu a:hover {
+   color: #ffffff;
+   text-decoration:dotted;
+}
+
+/* configuraçao html Historia do jiu jitsu*/
+div#historia {
+   width: 700px;
+   margin: -15px auto 10px auto;
+   box-shadow: 0px 0px 10px rgb(0,0,0,.5);
+   padding:  10px;
+   font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px ;
+      color: #130e0e;
+        }
+
+body { 
+   background-color: rgb(161, 193, 219);  }
+        
+p {
+   text-align: justify;
+   text-indent: 50px;}
+/* logo*/
+
+header#cabecalho {
+   border-bottom: 1px #606060 solid;
+   height: 90px ;
+ 
+}
+
+
+header#cabecalho h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px ;
+   color: #606060;
+   text-shadow: 1px 1px 1px rgb(0,0,0,.6) ;
+   padding: 0px;
+   margin-left: 5px;
+   margin-top: 20px;}
+
+   header#cabecalho h2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px ;
+      color: #606060;
+      text-shadow: 1px 1px 1px rgb(0,0,0,.6) ;
+      padding: 0px;
+      margin-left: 5px;
+      margin-top: 20px;
+   }
+ 
+  div#textoindex h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px ;
+      color: #606060;
+      text-shadow: 1px 1px 1px rgb(0,0,0,.6) ;
+      padding: 0px;
+     
+   }
+   
+   div#textoindex {
+      width: 550px;
+      margin: 0px auto 10px auto;
+      box-shadow: 0px 0px 10px rgb(0,0,0,.5);
+      padding:  10px;
+      font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px ;
+         color: #130e0e;
+
+   }
+
+       div#textoindex2  {
+   left:  110px;
+   margin: 0px auto  10px 637px ;
+   box-shadow: 0px 0px 10px rgb(0,0,0,.5);
+    padding:  10px;
+   font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px ;
+      color: #130e0e;
+        }
+
+   section#corpoesquerdo {
+      display: block;
+      width: 600px;
+      float: left;
+      border-right: 1px solid #606060;
+      padding-right:  10px;
+   }
+
+   section#corpodireito {
+      display: block;
+      width: 400px;
+      float: right;
+     
+   }
+
+   footer#rodape {
+      clear: both;
+      border-top: 1px solid #606060;
+   }
+
+   footer#rodape p {
+      text-align: center;
+   }
